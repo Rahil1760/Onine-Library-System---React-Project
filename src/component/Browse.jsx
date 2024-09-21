@@ -1,5 +1,12 @@
 import React from "react";
+import { Browseer } from "./Browseer";
 
 export const Browse = () => {
-  return <div>Browse</div>;
+  console.log("Browse Book");
+  console.log("first");
+  return (
+    <div>
+      <Browseer />
+    </div>
+  );
 };

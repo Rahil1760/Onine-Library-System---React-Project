@@ -6,23 +6,30 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./component/Home.jsx";
 import { Browse } from "./component/Browse.jsx";
 import { AddBook } from "./component/AddBook.jsx";
-import Navbar from "./component/Sections/Navbar.jsx";
+import BookDetails from "./component/BookDetails.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
-  },
-  {
-    path: "/Home",
-    element: <Home />,
-  },
-  {
-    path: "/browsebook",
-    element: <Browse />,
-  },
-  {
-    path: "/add-book",
-    element: <AddBook />,
+    element: <App />,
+
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/browsebook",
+        element: <Browse />,
+      },
+      {
+        path: "/add-book",
+        element: <AddBook />,
+      },
+      {
+        path: "home/:id",
+        element: <BookDetails />,
+      },
+    ],
   },
 ]);
 createRoot(document.getElementById("root")).render(
