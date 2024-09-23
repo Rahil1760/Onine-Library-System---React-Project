@@ -52,9 +52,9 @@ export const Browse = () => {
           placeholder="Search Book"
         />
       </div>
-      <div>
+      <div className=" w-full flex flex-wrap gap-4 justify-center mt-4 pb-4">
         {filterBooks.map((item) => {
-          console.log(item);
+          return <PopularBook item={item} />;
         })}
       </div>
     </div>
