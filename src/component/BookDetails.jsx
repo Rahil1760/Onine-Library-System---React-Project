@@ -7,7 +7,7 @@ function BookDetails() {
 
   const selector = useSelector((store) => store.fetch.bookItems);
   const pickedBook = selector.filter((item) => {
-    return item.id == data.id;
+    return item.title == data.title;
   });
   console.log(pickedBook);
   return (

@@ -7,7 +7,7 @@ export const Home = () => {
   const det = dispatch(fetchData);
   const data = useSelector((store) => store.fetch.bookItems);
   const popularBooks = data.filter((item) => {
-    return item.id < 5;
+    return item.isPopular == true;
   });
   return (
     <div>

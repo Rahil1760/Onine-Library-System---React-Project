@@ -20,7 +20,7 @@ function PopularBook(props) {
         <p>Country : {country}</p>
         <p>Pages : {pages}</p>
         <p className="text-indigo-500 inline-flex items-center mt-3"></p>
-        <Link to={`/home/${id}`}>
+        <Link to={`/home/${title}`}>
           <button className=" border-2 border-black pt-1 pb-1 pr-3 pl-3 rounded-xl mt-2">
             View Details
           </button>
@@ -30,15 +30,3 @@ function PopularBook(props) {
   );
 }
 export default PopularBook;
-
-//
-//       "author": "Doris Lessing",
-//       "country": "United Kingdom",
-//       "imageLink": "images/the-golden-notebook.jpg",
-//       "language": "English",
-//       "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
-//       "pages": 688,
-//       "title": "The Golden Notebook",
-//       "year": 1962,
-//       "id":57
-//     },

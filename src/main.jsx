@@ -26,7 +26,7 @@ const appRouter = createBrowserRouter([
         element: <AddBook />,
       },
       {
-        path: "home/:id",
+        path: "home/:title",
         element: <BookDetails />,
       },
     ],

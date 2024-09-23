@@ -14,8 +14,10 @@ const bookSlice = createSlice({
     },
     reducers:{
         addItem: (state, action) => {
-            state.bookItems.unshift(action.payload)
+            state.bookItems.unshift(action.payload);
+            
         },
+        
         extraReducer: ((builder) => {
             builder.addCase(fetchData.fulfilled,(state, action) => {
                 state.bookItems = action.payload;
@@ -26,6 +28,6 @@ const bookSlice = createSlice({
        
     }
 })
-export const { addItem} = bookSlice.actions
+export const { addItem } = bookSlice.actions
 
 export default bookSlice.reducer

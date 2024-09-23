@@ -11,7 +11,8 @@ const mock = [
       "pages": 209,
       "title": "Things Fall Apart",
       "year": 1958,
-      "id":1
+      "id": 1,
+      "isPopular": true,
     },
     {
       "author": "Hans Christian Andersen",
@@ -22,7 +23,8 @@ const mock = [
       "pages": 784,
       "title": "Fairy tales",
       "year": 1836,
-      "id":2
+      "id": 2,
+      "isPopular": true,
     },
     {
       "author": "Dante Alighieri",
@@ -33,7 +35,8 @@ const mock = [
       "pages": 928,
       "title": "The Divine Comedy",
       "year": 1315,
-      "id":3
+      "id": 3,
+      "isPopular": true,
     },
     {
       "author": "Bratt Wiliams",
@@ -44,7 +47,8 @@ const mock = [
       "pages": 160,
       "title": "The Epic Of Gilgamesh",
       "year": -1700,
-      "id":4
+      "id": 4,
+      "isPopular": true,
     },
     {
       "author": "Andrew Austin",
@@ -55,7 +59,8 @@ const mock = [
       "pages": 176,
       "title": "The Book Of Job",
       "year": -600,
-      "id":5
+      "id": 5,
+      "isPopular": false,
     },
     {
       "author": "Lucas Miller",
@@ -66,7 +71,8 @@ const mock = [
       "pages": 288,
       "title": "One Thousand and One Nights",
       "year": 1200,
-      "id":6
+      "id": 6,
+      "isPopular": false,
     },
     {
       "author": "Jenny Jordan",
@@ -77,7 +83,8 @@ const mock = [
       "pages": 384,
       "title": "Nj\u00e1l's Saga",
       "year": 1350,
-      "id":7
+      "id": 7,
+      "isPopular": false,
     },
     {
       "author": "Jane Austen",
@@ -88,7 +95,8 @@ const mock = [
       "pages": 226,
       "title": "Pride and Prejudice",
       "year": 1813,
-      "id":8
+      "id": 8,
+      "isPopular": false,
     },
     {
       "author": "Honor\u00e9 de Balzac",
@@ -99,7 +107,8 @@ const mock = [
       "pages": 443,
       "title": "Le P\u00e8re Goriot",
       "year": 1835,
-      "id":9
+      "id": 9,
+      "isPopular": false,
     },
     {
       "author": "Samuel Beckett",
@@ -110,7 +119,8 @@ const mock = [
       "pages": 256,
       "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
       "year": 1952,
-      "id":10
+      "id": 10,
+      "isPopular": false,
     },
     {
       "author": "Giovanni Boccaccio",
@@ -121,7 +131,8 @@ const mock = [
       "pages": 1024,
       "title": "The Decameron",
       "year": 1351,
-      "id":11
+      "id": 11,
+      "isPopular": false,
     },
     {
       "author": "Jorge Luis Borges",
@@ -132,7 +143,8 @@ const mock = [
       "pages": 224,
       "title": "Ficciones",
       "year": 1965,
-      "id":12
+      "id": 12,
+      "isPopular": false,
     },
     {
       "author": "Emily Bront\u00eb",
@@ -143,7 +155,8 @@ const mock = [
       "pages": 342,
       "title": "Wuthering Heights",
       "year": 1847,
-      "id":13
+      "id": 13,
+      "isPopular": false,
     },
     {
       "author": "Albert Camus",
@@ -154,7 +167,8 @@ const mock = [
       "pages": 185,
       "title": "The Stranger",
       "year": 1942,
-      "id":14
+      "id": 14,
+      "isPopular": false,
     },
     {
       "author": "Paul Celan",
@@ -165,7 +179,8 @@ const mock = [
       "pages": 320,
       "title": "Poems, Paul Celan",
       "year": 1952,
-      "id":15
+      "id": 15,
+      "isPopular": false,
     },
     {
       "author": "Louis-Ferdinand C\u00e9line",
@@ -176,7 +191,8 @@ const mock = [
       "pages": 505,
       "title": "Journey to the End of the Night",
       "year": 1932,
-      "id":16
+      "id": 16,
+      "isPopular": false,
     },
     {
       "author": "Miguel de Cervantes",
@@ -187,7 +203,8 @@ const mock = [
       "pages": 1056,
       "title": "Don Quijote De La Mancha",
       "year": 1610,
-      "id":17
+      "id": 17,
+      "isPopular": false,
     },
     {
       "author": "Geoffrey Chaucer",
@@ -198,7 +215,8 @@ const mock = [
       "pages": 544,
       "title": "The Canterbury Tales",
       "year": 1450,
-      "id":18
+      "id": 18,
+      "isPopular": false,
     },
     {
       "author": "Anton Chekhov",
@@ -209,7 +227,8 @@ const mock = [
       "pages": 194,
       "title": "Stories, Anton Chekhov",
       "year": 1886,
-      "id":19
+      "id": 19,
+      "isPopular": false,
     },
     {
       "author": "Joseph Conrad",
@@ -220,7 +239,8 @@ const mock = [
       "pages": 320,
       "title": "Nostromo",
       "year": 1904,
-      "id":20
+      "id": 20,
+      "isPopular": false,
     },
     {
       "author": "Charles Dickens",
@@ -231,7 +251,8 @@ const mock = [
       "pages": 194,
       "title": "Great Expectations",
       "year": 1861,
-      "id":21
+      "id": 21,
+      "isPopular": false,
     },
     {
       "author": "Denis Diderot",
@@ -242,7 +263,8 @@ const mock = [
       "pages": 596,
       "title": "Jacques the Fatalist",
       "year": 1796,
-      "id":22
+      "id": 22,
+      "isPopular": false,
     },
     {
       "author": "Alfred D\u00f6blin",
@@ -253,7 +275,8 @@ const mock = [
       "pages": 600,
       "title": "Berlin Alexanderplatz",
       "year": 1929,
-      "id":23
+      "id": 23,
+      "isPopular": false,
     },
     {
       "author": "Fyodor Dostoevsky",
@@ -264,7 +287,8 @@ const mock = [
       "pages": 551,
       "title": "Crime and Punishment",
       "year": 1866,
-      "id":24
+      "id": 24,
+      "isPopular": false,
     },
     {
       "author": "Fyodor Dostoevsky",
@@ -275,7 +299,8 @@ const mock = [
       "pages": 656,
       "title": "The Idiot",
       "year": 1869,
-      "id":25
+      "id": 25,
+      "isPopular": false,
     },
     {
       "author": "Fyodor Dostoevsky",
@@ -286,7 +311,8 @@ const mock = [
       "pages": 768,
       "title": "The Possessed",
       "year": 1872,
-      "id":26
+      "id": 26,
+      "isPopular": false,
     },
     {
       "author": "Fyodor Dostoevsky",
@@ -297,7 +323,8 @@ const mock = [
       "pages": 824,
       "title": "The Brothers Karamazov",
       "year": 1880,
-      "id":27
+      "id": 27,
+      "isPopular": false,
     },
     {
       "author": "George Eliot",
@@ -308,7 +335,8 @@ const mock = [
       "pages": 800,
       "title": "Middlemarch",
       "year": 1871,
-      "id":28
+      "id": 28,
+      "isPopular": false,
     },
     {
       "author": "Ralph Ellison",
@@ -319,7 +347,8 @@ const mock = [
       "pages": 581,
       "title": "Invisible Man",
       "year": 1952,
-      "id":29
+      "id": 29,
+      "isPopular": false,
     },
     {
       "author": "Euripides",
@@ -330,7 +359,8 @@ const mock = [
       "pages": 104,
       "title": "Medea",
       "year": 1990,
-      "id":30 
+      "id": 30,
+      "isPopular": false,
     },
     {
       "author": "William Faulkner",
@@ -341,7 +371,8 @@ const mock = [
       "pages": 313,
       "title": "Absalom, Absalom!",
       "year": 1936,
-      "id":31
+      "id": 31,
+      "isPopular": false,
     },
     {
       "author": "William Faulkner",
@@ -352,7 +383,8 @@ const mock = [
       "pages": 326,
       "title": "The Sound and the Fury",
       "year": 1929,
-      "id":32
+      "id": 32,
+      "isPopular": false,
     },
     {
       "author": "Gustave Flaubert",
@@ -363,7 +395,8 @@ const mock = [
       "pages": 528,
       "title": "Madame Bovary",
       "year": 1857,
-      "id":33
+      "id": 33,
+      "isPopular": false,
     },
     {
       "author": "Gustave Flaubert",
@@ -374,7 +407,8 @@ const mock = [
       "pages": 606,
       "title": "Sentimental Education",
       "year": 1869,
-      "id":34
+      "id": 34,
+      "isPopular": false,
     },
     {
       "author": "Federico Garc\u00eda Lorca",
@@ -385,7 +419,8 @@ const mock = [
       "pages": 218,
       "title": "Gypsy Ballads",
       "year": 1928,
-      "id":35
+      "id": 35,
+      "isPopular": false,
     },
     {
       "author": "Gabriel Garc\u00eda M\u00e1rquez",
@@ -396,7 +431,8 @@ const mock = [
       "pages": 417,
       "title": "One Hundred Years of Solitude",
       "year": 1967,
-      "id":36
+      "id": 36,
+      "isPopular": false,
     },
     {
       "author": "Gabriel Garc\u00eda M\u00e1rquez",
@@ -407,7 +443,8 @@ const mock = [
       "pages": 368,
       "title": "Love in the Time of Cholera",
       "year": 1985,
-      "id":37
+      "id": 37,
+      "isPopular": false,
     },
     {
       "author": "Johann Wolfgang von Goethe",
@@ -418,7 +455,8 @@ const mock = [
       "pages": 158,
       "title": "Faust",
       "year": 1832,
-      "id":38
+      "id": 38,
+      "isPopular": false,
     },
     {
       "author": "Nikolai Gogol",
@@ -429,7 +467,8 @@ const mock = [
       "pages": 432,
       "title": "Dead Souls",
       "year": 1842,
-      "id":39
+      "id": 39,
+      "isPopular": false,
     },
     {
       "author": "G\u00fcnter Grass",
@@ -440,7 +479,8 @@ const mock = [
       "pages": 600,
       "title": "The Tin Drum",
       "year": 1959,
-      "id":40
+      "id": 40,
+      "isPopular": false,
     },
     {
       "author": "Jo\u00e3o Guimar\u00e3es Rosa",
@@ -451,7 +491,8 @@ const mock = [
       "pages": 494,
       "title": "The Devil to Pay in the Backlands",
       "year": 1956,
-      "id":41
+      "id": 41,
+      "isPopular": false,
     },
     {
       "author": "Knut Hamsun",
@@ -462,7 +503,8 @@ const mock = [
       "pages": 176,
       "title": "Hunger",
       "year": 1890,
-      "id":42
+      "id": 42,
+      "isPopular": false,
     },
     {
       "author": "Ernest Hemingway",
@@ -473,7 +515,8 @@ const mock = [
       "pages": 128,
       "title": "The Old Man and the Sea",
       "year": 1952,
-      "id":43
+      "id": 43,
+      "isPopular": false,
     },
     {
       "author": "Homer",
@@ -484,7 +527,8 @@ const mock = [
       "pages": 608,
       "title": "Iliad",
       "year": -735,
-      "id":44
+      "id": 44,
+      "isPopular": false,
     },
     {
       "author": "Homer",
@@ -495,7 +539,8 @@ const mock = [
       "pages": 374,
       "title": "Odyssey",
       "year": -800,
-      "id":45
+      "id": 45,
+      "isPopular": false,
     },
     {
       "author": "Henrik Ibsen",
@@ -506,7 +551,8 @@ const mock = [
       "pages": 68,
       "title": "A Doll's House",
       "year": 1879,
-      "id":46
+      "id": 46,
+      "isPopular": false,
     },
     {
       "author": "James Joyce",
@@ -517,7 +563,8 @@ const mock = [
       "pages": 228,
       "title": "Ulysses",
       "year": 1922,
-      "id":47
+      "id": 47,
+      "isPopular": false,
     },
     {
       "author": "Franz Kafka",
@@ -528,7 +575,8 @@ const mock = [
       "pages": 488,
       "title": "Stories",
       "year": 1924,
-      "id":48
+      "id": 48,
+      "isPopular": false,
     },
     {
       "author": "Franz Kafka",
@@ -539,7 +587,8 @@ const mock = [
       "pages": 160,
       "title": "The Trial",
       "year": 1925,
-      "id":49
+      "id": 49,
+      "isPopular": false,
     },
     {
       "author": "Franz Kafka",
@@ -550,7 +599,8 @@ const mock = [
       "pages": 352,
       "title": "The Castle",
       "year": 1926,
-      "id":50
+      "id": 50,
+      "isPopular": false,
     },
     {
       "author": "K\u0101lid\u0101sa",
@@ -561,7 +611,8 @@ const mock = [
       "pages": 147,
       "title": "The recognition of Shakuntala",
       "year": 150,
-      "id":51
+      "id": 51,
+      "isPopular": false,
     },
     {
       "author": "Yasunari Kawabata",
@@ -572,7 +623,8 @@ const mock = [
       "pages": 288,
       "title": "The Sound of the Mountain",
       "year": 1954,
-      "id":52
+      "id": 52,
+      "isPopular": false,
     },
     {
       "author": "Nikos Kazantzakis",
@@ -583,7 +635,8 @@ const mock = [
       "pages": 368,
       "title": "Zorba the Greek",
       "year": 1946,
-      "id":53
+      "id": 53,
+      "isPopular": false,
     },
     {
       "author": "D. H. Lawrence",
@@ -594,7 +647,8 @@ const mock = [
       "pages": 432,
       "title": "Sons and Lovers",
       "year": 1913,
-      "id":54
+      "id": 54,
+      "isPopular": false,
     },
     {
       "author": "Halld\u00f3r Laxness",
@@ -605,7 +659,8 @@ const mock = [
       "pages": 470,
       "title": "Independent People",
       "year": 1934,
-      "id":55
+      "id": 55,
+      "isPopular": false,
     },
     {
       "author": "Giacomo Leopardi",
@@ -616,7 +671,8 @@ const mock = [
       "pages": 184,
       "title": "Poems",
       "year": 1818,
-      "id":56
+      "id": 56,
+      "isPopular": false,
     },
     {
       "author": "Doris Lessing",
@@ -627,7 +683,8 @@ const mock = [
       "pages": 688,
       "title": "The Golden Notebook",
       "year": 1962,
-      "id":57
+      "id": 57,
+      "isPopular": false,
     },
     {
       "author": "Astrid Lindgren",
@@ -638,7 +695,8 @@ const mock = [
       "pages": 160,
       "title": "Pippi Longstocking",
       "year": 1945,
-      "id":58
+      "id": 58,
+      "isPopular": false,
     },
 ];
 
