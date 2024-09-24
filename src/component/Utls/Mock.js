@@ -12,7 +12,7 @@ const mock = [
       "title": "Things Fall Apart",
       "year": 1958,
       "id": 1,
-      "isPopular": true,
+      "isPopular": false,
     },
     {
       "author": "Hans Christian Andersen",
@@ -24,7 +24,7 @@ const mock = [
       "title": "Fairy tales",
       "year": 1836,
       "id": 2,
-      "isPopular": true,
+      "isPopular": false,
     },
     {
       "author": "Dante Alighieri",
@@ -36,7 +36,7 @@ const mock = [
       "title": "The Divine Comedy",
       "year": 1315,
       "id": 3,
-      "isPopular": true,
+      "isPopular": false,
     },
     {
       "author": "Bratt Wiliams",
@@ -48,7 +48,7 @@ const mock = [
       "title": "The Epic Of Gilgamesh",
       "year": -1700,
       "id": 4,
-      "isPopular": true,
+      "isPopular": false,
     },
     {
       "author": "Andrew Austin",
@@ -96,7 +96,7 @@ const mock = [
       "title": "Pride and Prejudice",
       "year": 1813,
       "id": 8,
-      "isPopular": false,
+      "isPopular": true,
     },
     {
       "author": "Honor\u00e9 de Balzac",
@@ -120,7 +120,7 @@ const mock = [
       "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
       "year": 1952,
       "id": 10,
-      "isPopular": false,
+      "isPopular": true,
     },
     {
       "author": "Giovanni Boccaccio",
@@ -144,7 +144,7 @@ const mock = [
       "title": "Ficciones",
       "year": 1965,
       "id": 12,
-      "isPopular": false,
+      "isPopular": true,
     },
     {
       "author": "Emily Bront\u00eb",
@@ -180,7 +180,7 @@ const mock = [
       "title": "Poems, Paul Celan",
       "year": 1952,
       "id": 15,
-      "isPopular": false,
+      "isPopular": true,
     },
     {
       "author": "Louis-Ferdinand C\u00e9line",
@@ -453,10 +453,10 @@ const mock = [
       "language": "German",
       "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
       "pages": 158,
-      "title": "Faust",
+      "title": "faust",
       "year": 1832,
       "id": 38,
-      "isPopular": false,
+      "isPopular": false, 
     },
     {
       "author": "Nikolai Gogol",

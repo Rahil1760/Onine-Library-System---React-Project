@@ -25,7 +25,7 @@ export const Browse = () => {
     }
   };
   return (
-    <div className="flex flex-col md:items-center bg-blue-900">
+    <div className="flex flex-col md:items-center bg-gradient-to-r from-indigo-500">
       <div className="w-full md:w-1/2 text-center ">
         <select className="rounded-xl w-full text-center">
           <option
@@ -52,9 +52,9 @@ export const Browse = () => {
           placeholder="Search Book"
         />
       </div>
-      <div className=" w-full flex flex-wrap gap-4 justify-center mt-4 pb-4">
+      <div className=" w-full flex flex-wrap gap-4 justify-center mt-4 pb-10">
         {filterBooks.map((item) => {
-          return <PopularBook item={item} />;
+          return <PopularBook item={item} key={item.id} />;
         })}
       </div>
     </div>
