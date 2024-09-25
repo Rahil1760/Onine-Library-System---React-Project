@@ -7,7 +7,6 @@ export const Browse = () => {
   const [inputVal, setInputVal] = useState("");
   const [filterBooks, setfilterBooks] = useState(bookDetailsz);
   const [searchBy, setSearchBy] = useState("bookname");
-  console.log(searchBy);
   const searchByAuthor = (e) => {
     setInputVal(e.target.value);
     if (searchBy === "author") {
@@ -15,13 +14,11 @@ export const Browse = () => {
         return item.author.toUpperCase().includes(inputVal.toUpperCase());
       });
       setfilterBooks(byAuthor);
-      console.log(filterBooks);
     } else if (searchBy === "bookname") {
       const byTitle = bookDetailsz.filter((item) => {
         return item.title.toUpperCase().includes(inputVal.toUpperCase());
       });
       setfilterBooks(byTitle);
-      console.log(byTitle);
     }
   };
   return (

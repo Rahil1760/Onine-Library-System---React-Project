@@ -9,7 +9,6 @@ function BookDetails() {
   const pickedBook = selector.filter((item) => {
     return item.title == data.title;
   });
-  console.log(pickedBook);
   return (
     <>
       <div className="flex mt-5 p-4 rounded-xl shadow-2xl shadow-black justify-between pb-40 md:h-lvh">
